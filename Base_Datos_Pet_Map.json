@@ -1,0 +1,182 @@
+/*----------------Nuevo Usuario-------------*/
+"newUser":
+	[
+		{
+			"Nombre":"Guillermo",
+			"Apellido":"Rivera",
+			"C.I":1721949285,
+			"email":"guillermo.rivera@epn.edu.ec",
+			"Usuario":"Gales07",
+			"Contraseña":"*****",
+			"Edad":20,
+			"Dirección":"Monjas Jardín del Valle"
+		},
+		{
+			"Nombre":"Carlos",
+			"Apellido":"Montesdeoca",
+			"C.I":1293612245,
+			"email":"carlos.montesdeoca01@epn.edu.ec",
+			"Usuario":"CarlosMontesdeoca",
+			"Contraseña":"*****",
+			"Edad":22,
+			"Dirección":"Conocoto"
+		},
+		{
+			"Nombre":"Elvis",
+			"Apellido":"Agila",
+			"C.I":1299453946,
+			"email":"elvis.agila@epn.edu.ec",
+			"Usuario":"Eagila926",
+			"Contraseña":"*****",
+			"Edad":24,
+			"Dirección":"Lucha de los pobres"
+		},
+		{
+			"Nombre":"Yomara",
+			"Apellido":"Diaz",
+			"C.I":1234567894,
+			"email":"yomara.diaz@epn.edu.ec",
+			"Usuario":"YomaraDiaz",
+			"Contraseña":"*****",
+			"Edad":24,
+			"Dirección":"Sangolqui"
+		}
+	],
+
+/*----------------Ingreso Perros-------------*/
+
+
+//inicio con minusculas
+
+"logDog":
+	[
+		{
+			"direccion":"La Floresta",
+			"estado1":["Bueno","Malo (Necesita atención médica)","intermedia (necesita revision/comida)"],
+			"tamaño_Aprox(cm)":0.75,
+			"raza":"",
+			"img":"",
+			"C.I_user":"17219499285"
+		}
+	],
+
+/*----------------Perros Registrados-------------*/
+"Dog":
+	[
+		{
+			"nombre":"Firulais",
+			"raza":"Labrador",
+			"tamaño":0.75,
+			"dirección":"La Floresta",
+			"estado(Encontrado)":"Bueno",
+			"Características":"",
+			"tipo":["perro","gato"],
+			"Estado":["estado1","estado2"]
+		},
+		{
+			"Nombre":"Max",
+			"Raza":"Pastor Alemán",
+			"Tamaño":0.85,
+			"Dirección":"La Carolina",
+			"Estado(Encontrado)":"intermedia",
+			"Características":"",
+			"tipo":["perro","gato"],
+			"Estado":["estado1","estado2"]
+		}
+	],
+/*----------------Ingreso Gatos-------------*/
+"logCat":
+	[
+		{
+			"Dirección":"Centro Histórico",
+			"Estado":["Bueno","Malo (Necesita atención médica)","intermedia (necesita revisín/comida)"],
+			"Tamaño_Aprox(cm)":0.25,
+			"Raza":""
+		},
+		{
+			"Dirección":"Panesillo",
+			"Estado":["Bueno","Malo (Necesita atención médica)","intermedia (necesita revisín/comida)"],
+			"Tamaño_Aprox(cm)":0.30,
+			"Raza":""
+		}
+	],
+/*----------------Gatos Registrados -------------*/
+"Cat":
+	[
+		{
+			"Nombre":"Trufa",
+			"Raza":"persa",
+			"Tamaño":0.25,
+			"Dirección":"Centro Histórico",
+			"Estado(Encontrado)":"intermedia",
+			"Características":""
+		}
+	],
+/*----------------Donaciones-------------*/
+"donations"
+[
+	
+		{
+			"NombreDonante":"Juan",
+			"ApellidoDonante":"Lagua",
+			"C.I":1457692857,
+			"tipo":"monetaria",
+			"Cuenta":"Pacífico",
+			"Cantidad($)":150.50,
+			"Descripción":""
+		},
+		{
+			"NombreDonante":"Mirian",
+			"ApellidoDonante":"Quilca",
+			"C.I":1758723475,
+			"tipo":"monetaria",
+			"Cuenta":"Pichincha",
+			"Cantidad($)":50.50,
+			"Descripción":""
+		},
+		{
+			"NombreDonante":"Sebastián",
+			"ApellidoDonante":"Salazar",
+			"C.I":1945683452,
+			"tipo":"humanitaria",
+			"productoDonado":"Croquetas",
+			"Descripción":""
+		}
+	
+],
+/*----------------FORMULARIO DE ADOPCION-------------*/
+"questions":
+	[
+		
+			"C.I_user":1721949285
+			[
+				"q1":{
+				"texto":"¿Ha tenido mascotas?",
+				"answer":true 
+				},
+				"q2":{
+					"texto":"¿Cuenta con el espacio suficiente?",
+					"answer":false
+				},
+				"q3":{
+					"texto":"¿Cuenta con números de emergencia para veterinaria?",
+					"answer":true
+				},
+				"q4":{
+					"texto":"¿Gana los ingresos necesarios para mantener a la mascota?",
+					"answer":true
+				},
+				"q5":{
+					"texto":"¿Tiene hijos?",
+					"answer":false
+				},
+				"q6":{
+					"texto":"¿Por qué quiere adoptar?",
+					"phrase":""
+				}
+			]
+				
+			
+			
+		
+	]
